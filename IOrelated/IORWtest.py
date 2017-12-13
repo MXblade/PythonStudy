@@ -24,6 +24,5 @@ f = open(relapath, 'r', encoding='utf-8')
 print(f.read())
 f.close()
 
-
-
+import os
 
