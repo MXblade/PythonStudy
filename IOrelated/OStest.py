@@ -28,6 +28,7 @@ print( os.path.splitext(os.path.abspath('../files/write.txt')))
 #os.remove('write2.txt')
 
 
+
 print('---------------------------------')
 print('在当前目录及其子目录下的的文件名查找包含指定字段的文件，并打印绝对路径')
 def findfile(filestr, path = os.path.abspath('.')):
